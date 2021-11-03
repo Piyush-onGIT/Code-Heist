@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 		<p>
-			Hello World again
+			Hello World once again
 		</p>
       </header>
     </div>
