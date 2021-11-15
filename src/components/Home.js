@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import {Youtube} from './Youtube'
 import HomeCss from './styles/home.module.css'
-import { notFound } from './notFound';
+// import { notFound } from './notFound';
 
 export class Home extends Component{
     // <Router>
@@ -20,7 +20,6 @@ export class Home extends Component{
                             <NavLink to="/blogs">Blogs</NavLink>
                         </div>
                         <Route path="/Youtube" component={Youtube}/>
-                        {/* <Route component={notFound}/> */}
                     </div> 
                 </Router>
             );
