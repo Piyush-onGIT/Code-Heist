@@ -1,9 +1,45 @@
-.head{
+* {
+    box-sizing: border-box;
+  }
+.main{
+    margin-top: 10px;
+}
+.arrow{
     color: aliceblue;
+    font-size: 20px;
+}
+.name{
+    color: aliceblue;
+    text-decoration: underline double;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 15px;
 }
 .eachSlide{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     align-items: center;
+}
+.vid1, .vid2, .vid3, .vid4{
+    margin-left: 100px;
+    border-bottom: 5px solid greenyellow;
+    /* box-shadow: 0 0 0 1px red; */
+    
+}
+.videos{
+    font-size: 25px;
+    color: antiquewhite;
+    margin-left: 45px;
+    content: "";
+    clear: both;
+    display: table;
+}
+a{
+    margin-left: 15px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: monospace;
+    /* text-decoration: none; */
+    /* text-decoration: dotted; */
 }
